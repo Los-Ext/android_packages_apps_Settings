@@ -29,6 +29,12 @@
             android:summary="@string/three_finger_gesture_summary"
             android:defaultValue="false" />
 
+        <com.lineage.support.preferences.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_lockscreen"
+            android:title="@string/lockscreen_doubletap_sleep_title"
+            android:summary="@string/lockscreen_doubletap_sleep_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
