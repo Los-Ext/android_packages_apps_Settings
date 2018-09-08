@@ -170,4 +170,8 @@
     <string name="qs_battery_category_title">Qs Battery customizations</string>
     <string name="qs_use_status_bar_battery_style">Follow status bar style</string>
 
+    <!-- Tap to sleep on lockscreen -->
+    <string name="lockscreen_doubletap_sleep_title">Tap to sleep</string>
+    <string name="lockscreen_doubletap_sleep_summary">Double-tap on the lock screen to put device asleep</string>
+
 </resources>
