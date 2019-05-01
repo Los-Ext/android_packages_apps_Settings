@@ -243,4 +243,14 @@
             android:title="@string/display_vr_pref_title"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/lineage_category_title">
+
+        <Preference
+            android:key="lineage_customizations"
+            android:title="@string/lineage_customization_title"
+            android:summary="@string/lineage_customization_summary"
+            android:fragment="com.android.settings.lineage.fragments.LineageCustomizations" />
+    </PreferenceCategory>
 </PreferenceScreen>
