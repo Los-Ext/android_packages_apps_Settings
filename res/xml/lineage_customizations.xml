@@ -35,6 +35,14 @@
             android:summary="@string/data_disabled_icon_summary"
             android:defaultValue="true"/>
 
+        <!-- Network Traffic -->
+        <com.lineage.support.preferences.SystemSettingMasterSwitchPreference
+            android:key="network_traffic_state"
+            android:title="@string/network_traffic_state_title"
+            android:summary="@string/network_traffic_state_summary"
+            android:fragment="com.android.settings.lineage.fragments.NetworkTraffic"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
