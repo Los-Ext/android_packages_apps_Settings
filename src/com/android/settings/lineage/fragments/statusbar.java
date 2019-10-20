@@ -16,20 +16,61 @@
 
 package com.android.settings.lineage.fragments;
 
+import android.app.Activity;
+import android.content.Context;
+import android.content.ContentResolver;
 import android.os.Bundle;
-import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.R;
+import android.os.UserHandle;
+import android.provider.Settings;
+
+import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceScreen;
+import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-public class statusbar extends SettingsPreferenceFragment {
+import com.android.settings.R;
+import com.android.settings.SettingsPreferenceFragment;
+
+import com.lineage.support.preferences.SecureSettingMasterSwitchPreference;
+import com.lineage.support.preferences.SecureSettingListPreference;
+import com.lineage.support.preferences.SystemSettingMasterSwitchPreference;
+
+public class statusbar extends SettingsPreferenceFragment
+        implements Preference.OnPreferenceChangeListener {
 
     private static final String TAG = "Lineage Customizations";
+    private static final String KEY_NETWORK_TRAFFIC = "network_traffic_state";
+
+    private SystemSettingMasterSwitchPreference mNetworkTraffic;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.lineage_statusbar);
+        PreferenceScreen prefSet = getPreferenceScreen();
+        final ContentResolver resolver = getActivity().getContentResolver();
+
+        mNetworkTraffic = (SystemSettingMasterSwitchPreference)
+                findPreference(KEY_NETWORK_TRAFFIC);
+        boolean enabled = Settings.System.getIntForUser(resolver,
+                KEY_NETWORK_TRAFFIC, 0, UserHandle.USER_CURRENT) == 1;
+        mNetworkTraffic.setChecked(enabled);
+        mNetworkTraffic.setOnPreferenceChangeListener(this);
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mNetworkTraffic) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putIntForUser(resolver, KEY_NETWORK_TRAFFIC,
+                    value ? 1 : 0, UserHandle.USER_CURRENT);
+            return true;
+        }
+        return false;
     }
 
     @Override
