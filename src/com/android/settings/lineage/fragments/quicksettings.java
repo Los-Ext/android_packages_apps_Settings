@@ -16,20 +16,57 @@
 
 package com.android.settings.lineage.fragments;
 
+import android.app.Activity;
+import android.content.Context;
+import android.content.ContentResolver;
 import android.os.Bundle;
-import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.R;
+import android.provider.Settings;
+
+import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
+import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-public class quicksettings extends SettingsPreferenceFragment {
+import com.android.settings.R;
+import com.android.settings.SettingsPreferenceFragment;
+
+import com.lineage.support.preferences.SecureSettingMasterSwitchPreference;
+
+public class quicksettings extends SettingsPreferenceFragment
+        implements Preference.OnPreferenceChangeListener {
 
     private static final String TAG = "Lineage Customizations";
+    private static final String BRIGHTNESS_SLIDER = "qs_show_brightness";
+
+    private SecureSettingMasterSwitchPreference mBrightnessSlider;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.lineage_quicksettings);
+        PreferenceScreen prefSet = getPreferenceScreen();
+        final ContentResolver resolver = getActivity().getContentResolver();
+
+        mBrightnessSlider = (SecureSettingMasterSwitchPreference)
+                findPreference(BRIGHTNESS_SLIDER);
+        mBrightnessSlider.setOnPreferenceChangeListener(this);
+        boolean enabled = Settings.Secure.getInt(resolver,
+                BRIGHTNESS_SLIDER, 1) == 1;
+        mBrightnessSlider.setChecked(enabled);
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mBrightnessSlider) {
+            boolean value = (boolean) newValue;
+            Settings.Secure.putInt(resolver,
+                    BRIGHTNESS_SLIDER, value ? 1 : 0);
+            return true;
+        }
+        return false;
     }
 
     @Override
