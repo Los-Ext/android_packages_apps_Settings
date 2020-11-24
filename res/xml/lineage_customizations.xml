@@ -59,6 +59,12 @@
             android:summary="@string/ignore_window_secure_summary"
             android:defaultValue="false"/>
 
+        <lineageos.preference.SecureSettingSwitchPreference
+            android:key="qstile_requires_unlocking"
+            android:title="@string/qstile_requires_unlocking_title"
+            android:summary="@string/qstile_requires_unlocking_summary"
+            android:defaultValue="true"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory
