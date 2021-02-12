@@ -47,11 +47,11 @@
             android:summary="@string/idle_manager_summary"
             android:defaultValue="false" />
 
-        <com.lineage.support.preferences.SystemSettingSwitchPreference
-            android:key="sensor_block"
+        <Preference
+            android:key="sensor_block_settings"
             android:title="@string/sensor_block_title"
             android:summary="@string/sensor_block_summary"
-            android:defaultValue="false" />
+            android:fragment="com.android.settings.lineage.fragments.SensorBlock"/>
 
     </PreferenceCategory>
 
