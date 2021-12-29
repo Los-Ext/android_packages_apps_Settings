@@ -223,4 +223,6 @@
      <!-- xd. Framework -->
      <color name="xd_pref_ripple">#1f000000</color>
      <color name="xd_pref_card_color">#F3F4F6</color>
+
+    <color name="option_border_default">#5f6368</color>
 </resources>
