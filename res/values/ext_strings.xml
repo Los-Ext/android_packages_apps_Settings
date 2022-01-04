@@ -141,4 +141,8 @@
      <string name="qs_battery_category_title">Qs Battery customizations</string>
      <string name="qs_use_status_bar_battery_style">Follow status bar style</string>
 
+    <!-- AdGuard DNS -->
+    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
+    <string name="private_dns_hostname_adguard" translatable="false">dns.adguard.com</string>
+
 </resources>
