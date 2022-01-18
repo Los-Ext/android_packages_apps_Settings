@@ -22,6 +22,7 @@
     <PreferenceCategory
         android:key="themes_category"
         android:title="@string/themes_category_title">
+
         <!-- Font style -->
         <Preference
             android:key="android.theme.customization.fonts"
@@ -42,6 +43,20 @@
             android:title="@string/theme_customization_icon_shape_title"
             android:summary="@string/theme_customization_icon_shape_summary"
             android:fragment="com.android.settings.lineage.fragments.IconShapes"/>
+
+        <!-- Signal icon style -->
+        <Preference
+            android:key="android.theme.customization.signal_icon"
+            android:title="@string/theme_customization_signal_icon_title"
+            android:summary="@string/theme_customization_signal_icon_summary"
+            android:fragment="com.android.settings.lineage.fragments.SignalIcons"/>
+
+        <!-- Wifi icon style -->
+        <Preference
+            android:key="android.theme.customization.wifi_icon"
+            android:title="@string/theme_customization_wifi_icon_title"
+            android:summary="@string/theme_customization_wifi_icon_summary"
+            android:fragment="com.android.settings.lineage.fragments.WifiIcons"/>
 
     </PreferenceCategory>
 
