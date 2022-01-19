@@ -36,6 +36,7 @@
     <string name="themes_category_title">Themes</string>
     <string name="fonts_category_title">Fonts</string>
     <string name="sound_category_title">Sound</string>
+    <string name="vibration_category_title">Vibration</string>
 
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
@@ -367,5 +368,13 @@
     <string name="status_bar_clock_date_position">Date position</string>
     <string name="status_bar_clock_date_right">Right of time</string>
     <string name="status_bar_clock_date_left">Left of time</string>
+
+    <!-- In-call feedback -->
+    <string name="incall_vibrate_connect_title">On connect</string>
+    <string name="incall_vibrate_connect_summary">Vibrates when the call is connected</string>
+    <string name="incall_vibrate_call_wait_title">On call waiting</string>
+    <string name="incall_vibrate_call_wait_summary">Vibrates when call is on wait</string>
+    <string name="incall_vibrate_disconnect_title">On disconnect</string>
+    <string name="incall_vibrate_disconnect_summary">Vibrates when call is disconnected</string>
 
 </resources>
