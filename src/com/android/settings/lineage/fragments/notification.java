@@ -17,8 +17,11 @@
 package com.android.settings.lineage.fragments;
 
 import android.os.Bundle;
+import androidx.preference.*;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
+
+import com.android.settings.utils.TelephonyUtils;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -26,10 +29,23 @@ public class notification extends SettingsPreferenceFragment {
 
     private static final String TAG = "Lineage Customizations";
 
+    private static final String KEY_VIBRATE_CATEGORY = "incall_vib_options";
+    private static final String KEY_VIBRATE_CONNECT = "vibrate_on_connect";
+    private static final String KEY_VIBRATE_CALLWAITING = "vibrate_on_callwaiting";
+    private static final String KEY_VIBRATE_DISCONNECT = "vibrate_on_disconnect";
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.lineage_notification);
+
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        final PreferenceCategory vibCategory = prefScreen.findPreference(KEY_VIBRATE_CATEGORY);
+
+        if (!TelephonyUtils.isVoiceCapable(getActivity())) {
+            prefScreen.removePreference(vibCategory);
+        }
     }
 
     @Override
