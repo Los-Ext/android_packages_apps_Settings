@@ -32,6 +32,7 @@
     <string name="lockscreen_category_title">Lock Screen</string>
     <string name="themes_category_title">Themes</string>
     <string name="fonts_category_title">Fonts</string>
+    <string name="fp_category_title">Fingerprint</string>
 
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
@@ -217,5 +218,9 @@
     <string name="quick_settings_tile_ui_style_a11_circle">Circle tiles</string>
     <string name="quick_settings_tile_ui_style_a11_square">Square tiles</string>
     <string name="quick_settings_tile_ui_style_a11_mix">Circle &amp; Square tiles</string>
+
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
 
 </resources>
