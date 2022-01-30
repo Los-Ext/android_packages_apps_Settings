@@ -19,4 +19,16 @@
     android:key="lineage_lockscreen"
     android:title="@string/lockscreen_category_title">
 
+    <PreferenceCategory
+        android:key="lockscreen_category"
+        android:title="@string/fp_category_title">
+
+        <com.lineage.support.preferences.SystemSettingSwitchPreference
+            android:key="enable_ripple_effect"
+            android:title="@string/enable_fingerprint_ripple_effect_title"
+            android:summary="@string/enable_fingerprint_ripple_effect_summary"
+            android:defaultValue="true" />
+
+   </PreferenceCategory>
+
 </PreferenceScreen>
