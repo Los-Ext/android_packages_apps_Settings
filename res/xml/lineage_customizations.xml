@@ -89,5 +89,11 @@
             android:summary="@string/spoof_storage_encryption_status_summary"
             android:defaultValue="false" />
 
+        <com.lineage.support.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.pixelprops.gphotos"
+            android:title="@string/photos_spoof_title"
+            android:summary="@string/photos_spoof_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 </PreferenceScreen>
