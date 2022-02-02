@@ -22,7 +22,7 @@
 
     <!-- LineageExt category -->
     <string name="ext_settings_title">Ext Settings</string>
-    <string name="ext_settings_summary">Some Extra Lineage changes</string>
+    <string name="ext_settings_summary">Extra Lineage changes</string>
     <string name="customizations_category_title">Customizations</string>
     <string name="statusbar_category_title">Statusbar</string>
     <string name="quicksettings_category_title">Quick Settings</string>

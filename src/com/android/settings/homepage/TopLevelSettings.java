@@ -241,8 +241,9 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             final Preference preference = screen.getPreference(i);
 
             String key = preference.getKey();
-            if (key.equals("ext_settings")
-            	|| key.equals("top_level_network")
+            if (key.equals("ext_settings")){
+                preference.setLayoutResource(R.layout.xd_dashboard_phone);
+            } else if (key.equals("top_level_network")
             	|| key.equals("top_level_apps")
             	|| key.equals("top_level_accessibility")
             	|| key.equals("top_level_emergency")
