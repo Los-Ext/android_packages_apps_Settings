@@ -242,7 +242,6 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
 
             String key = preference.getKey();
             if (key.equals("top_level_network")
-            	|| key.equals("ext_settings")
             	|| key.equals("top_level_apps")
             	|| key.equals("top_level_accessibility")
             	|| key.equals("top_level_emergency")
@@ -261,6 +260,8 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                 preference.setLayoutResource(R.layout.everestos_dashboard_preference_bottom);
             } else if (key.equals("top_level_accounts") && gAppsExists){
                 preference.setLayoutResource(R.layout.everestos_dashboard_preference_middle);
+            } else if (key.equals("ext_settings")){
+                preference.setLayoutResource(R.layout.xd_dashboard_phone);
             } else {
                 preference.setLayoutResource(R.layout.everestos_dashboard_preference_bottom);
             }
