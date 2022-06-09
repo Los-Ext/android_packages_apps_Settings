@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C)2024 The EverestOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Everest Cards -->
+    <dimen name="everest_radius">28dp</dimen>
+    <dimen name="everest_radius_merge">5dp</dimen>
+    <dimen name="everest_pref_horizontal_padding">16dp</dimen>
+    <dimen name="everest_pref_horizontal_padding-negative">-16dp</dimen>
+
+</resources>
