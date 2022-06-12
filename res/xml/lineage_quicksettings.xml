@@ -19,4 +19,16 @@
     android:key="lineage_quicksettings"
     android:title="@string/quicksettings_category_title">
 
+    <PreferenceCategory
+        android:key="quicksettings_category"
+        android:title="@string/quicksettings_category_title">
+
+        <lineageos.preference.SecureSettingSwitchPreference
+            android:key="qs_show_data_usage"
+            android:title="@string/qs_show_data_usage_title"
+            android:summary="@string/qs_show_data_usage_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
