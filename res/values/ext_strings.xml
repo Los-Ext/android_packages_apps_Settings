@@ -61,6 +61,10 @@
     <string name="games_spoof_title">Unlock higher FPS in games</string>
     <string name="games_spoof_summary">Spoof your device as a different model for specific games to unlock higher FPS</string>
 
+    <!-- Netflix Spooft -->
+    <string name="netflix_spoof_title">Netflix spoof</string>
+    <string name="netflix_spoof_summary">Spoof your device as different model for Netflix</string>
+
     <!-- Brightness slider -->
     <string name="qs_show_brightness_title">Brightness slider</string>
     <string name="qs_show_brightness_summary">Brightness slider visibility and settings</string>
