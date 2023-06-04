@@ -71,5 +71,11 @@
         android:key="spoofs_category"
         android:title="@string/spoofs_category_title">
 
+        <lineageos.preference.SecureSettingSwitchPreference
+            android:key="spoof_storage_encryption_status"
+            android:title="@string/spoof_storage_encryption_status_title"
+            android:summary="@string/spoof_storage_encryption_status_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 </PreferenceScreen>
