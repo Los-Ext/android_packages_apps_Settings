@@ -16,4 +16,16 @@
     android:key="lineage_notification"
     android:title="@string/notification_category_title">
 
+    <PreferenceCategory
+        android:key="notification_category"
+        android:title="@string/notification_category_title">
+
+        <Preference
+            android:key="island_notification"
+            android:title="@string/island_notification_title"
+            android:summary="@string/island_notification_summary"
+            android:fragment="com.android.settings.lineage.fragments.IslandSettings" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
