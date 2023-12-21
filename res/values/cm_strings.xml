@@ -271,4 +271,8 @@
     <string name="custom_timeout_summary_2hours">2 hours</string>
     <string name="custom_timeout_summary_4hours">4 hours</string>
     <string name="custom_timeout_summary_8hours">8 hours</string>
+
+    <!-- Disable DNS for VPN -->
+    <string name="vpn_enforce_dns_title">Disable for VPN</string>
+    <string name="vpn_enforce_dns_summary">Disable the private DNS when connected to a VPN and restore upon disconnecting</string>
 </resources>
