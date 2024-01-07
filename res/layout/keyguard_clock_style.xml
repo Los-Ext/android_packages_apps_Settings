@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.settings.preferences.ClockStyle
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/clock_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+		<LinearLayout
+		    android:gravity="center_vertical"
+		    android:id="@+id/keyguard_clock_style_default"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content">
+		    <include layout="@layout/keyguard_clock_default"/>
+		</LinearLayout>
+        <LinearLayout
+            android:gravity="start"
+            android:id="@+id/keyguard_clock_style_oos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/keyguard_clock_oos" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/keyguard_clock_style_miui"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/keyguard_clock_miui"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/keyguard_clock_style_ide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/keyguard_clock_ide"/>
+        </LinearLayout>
+    </RelativeLayout>
+</com.android.settings.preferences.ClockStyle>
