@@ -303,4 +303,8 @@
     <string name="sidebar_title">Sidebar</string>
     <string name="sidebar_summary">Quickly open apps in a floating window</string>
 
+    <!-- Custom Clock Style -->
+    <string name="lockscreen_clock_category_title">Clock</string>
+    <string name="custom_clock_style">Custom Clock Style</string>
+
 </resources>
