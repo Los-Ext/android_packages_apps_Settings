@@ -29,6 +29,12 @@
             android:summary="@string/ignore_window_secure_summary"
             android:defaultValue="false"/>
 
+        <com.lineage.support.preferences.GlobalSettingSwitchPreference
+            android:key="pm_downgrade_allowed"
+            android:title="@string/app_downgrade_title"
+            android:summary="@string/app_downgrade_summary"
+            android:defaultValue="false"/>
+
         <Preference
             android:key="island_notification"
             android:title="@string/island_notification_title"
