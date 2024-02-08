@@ -65,6 +65,10 @@
     <string name="netflix_spoof_title">Netflix spoof</string>
     <string name="netflix_spoof_summary">Spoof your device as different model for Netflix</string>
 
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Disable storage encryption status</string>
+    <string name="spoof_storage_encryption_status_summary">Prevent apps from not operating due to unencrypted storage</string>
+
     <!-- Brightness slider -->
     <string name="qs_show_brightness_title">Brightness slider</string>
     <string name="qs_show_brightness_summary">Brightness slider visibility and settings</string>
