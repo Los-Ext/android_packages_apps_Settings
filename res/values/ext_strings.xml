@@ -200,4 +200,8 @@
     <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
     <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
 
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Kill background processes</string>
+    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
+
 </resources>
