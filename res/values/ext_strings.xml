@@ -188,4 +188,8 @@
     <string name="search">Search</string>
     <string name="search_apps">Search apps</string>
 
+    <!-- Idle Manager -->
+    <string name="idle_manager_title">Kill background processes</string>
+    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
+
 </resources>
