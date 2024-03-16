@@ -22,6 +22,16 @@
     settings:keywords="@string/keywords_display">
 
     <PreferenceCategory
+        android:title="@string/lineage_category_title">
+
+        <Preference
+            android:key="lineage_customizations"
+            android:title="@string/lineage_customization_title"
+            android:summary="@string/lineage_customization_summary"
+            android:fragment="com.android.settings.lineage.fragments.LineageCustomizations" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/category_name_brightness">
 
         <com.android.settingslib.RestrictedPreference
@@ -247,15 +257,5 @@
             android:key="enable_blurs_on_windows"
             android:title="@string/enable_blurs_on_windows_title"
             android:summary="@string/enable_blurs_on_windows_summary" />
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="@string/lineage_category_title">
-
-        <Preference
-            android:key="lineage_customizations"
-            android:title="@string/lineage_customization_title"
-            android:summary="@string/lineage_customization_summary"
-            android:fragment="com.android.settings.lineage.fragments.LineageCustomizations" />
     </PreferenceCategory>
 </PreferenceScreen>

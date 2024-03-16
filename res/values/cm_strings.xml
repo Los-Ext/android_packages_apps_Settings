@@ -189,9 +189,9 @@
     <string name="maintainer_name" translatable="false">Unknown</string>
 
     <!-- LineageExt category -->
-    <string name="lineage_category_title">LineageExt Space</string>
-    <string name="lineage_customization_title">LineageExt Lab</string>
-    <string name="lineage_customization_summary">LineageExt Settings and features</string>
+    <string name="lineage_category_title">LineageExt</string>
+    <string name="lineage_customization_title">LineageExt Parts</string>
+    <string name="lineage_customization_summary">Settings and customizations</string>
     <string name="statusbar_category_title">Statusbar</string>
     <string name="quicksettings_category_title">Quick Settings</string>
     <string name="gestures_category_title">Gestures</string>
