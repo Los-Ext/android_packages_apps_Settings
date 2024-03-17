@@ -57,7 +57,7 @@
             android:key="android.theme.customization.fonts"
             android:title="@string/theme_customization_font_title"
             android:summary="@string/theme_customization_font_summary"
-            android:fragment="com.android.settings.lineage.fragments.FontsPicker"/>
+            android:fragment="com.android.settings.lineage.fragments.FontPickerPreview"/>
 
     </PreferenceCategory>
 
