@@ -67,4 +67,10 @@
         android:icon="@drawable/ic_ext_notification"
         android:fragment="com.android.settings.lineage.fragments.notification" />
 
+    <Preference
+        android:key="sound_engine"
+        android:title="@string/sound_category_title"
+        android:icon="@drawable/ic_ext_sound"
+        android:fragment="com.android.settings.lineage.fragments.SoundEngine" />
+
 </PreferenceScreen>
