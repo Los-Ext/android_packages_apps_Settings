@@ -24,6 +24,12 @@
         android:title="@string/spoofs_category_title">
 
         <com.lineage.support.preferences.SystemPropertySwitchPreference
+            android:key="persist.sys.pixelprops.gms"
+            android:title="@string/gms_spoof_title"
+            android:summary="@string/gms_spoof_summary"
+            android:defaultValue="false" />
+
+        <com.lineage.support.preferences.SystemPropertySwitchPreference
             android:key="persist.sys.pixelprops.gphotos"
             android:title="@string/photos_spoof_title"
             android:summary="@string/photos_spoof_summary"
