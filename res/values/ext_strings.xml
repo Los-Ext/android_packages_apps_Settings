@@ -192,4 +192,8 @@
     <string name="idle_manager_title">Kill background processes</string>
     <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
 
+    <!-- Quick settings -->
+    <string name="quick_settings_secure_lock_screen_title">Hide on secure lock screen</string>
+    <string name="quick_settings_secure_lock_screen_summary">Hide all quick settings in the notification shade while the device is locked</string>
+
 </resources>
