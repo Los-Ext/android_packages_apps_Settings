@@ -53,6 +53,12 @@
             android:summary="@string/status_bar_bluetooth_battery_summary"
             android:defaultValue="true" />
 
+        <Preference
+            android:key="network_traffic_settings"
+            android:title="@string/status_bar_network_traffic_settings_title"
+            android:summary="@string/status_bar_network_traffic_settings_summary"
+            android:fragment="com.android.settings.lineage.fragments.NetworkTrafficSettings" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
