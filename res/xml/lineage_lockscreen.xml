@@ -19,4 +19,16 @@
     android:key="lineage_lockscreen"
     android:title="@string/lockscreen_category_title">
 
+    <PreferenceCategory
+        android:key="lockscreen_category"
+        android:title="@string/lockscreen_category_title">
+
+        <Preference
+            android:key="depth_wallpaper"
+            android:title="@string/dw_wallpaper_enabled_title"
+            android:summary="@string/dw_wallpaper_enabled_summary"
+            android:fragment="com.android.settings.lineage.fragments.WallpaperDepth" />
+
+   </PreferenceCategory>
+
 </PreferenceScreen>
