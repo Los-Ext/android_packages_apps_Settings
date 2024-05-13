@@ -19,4 +19,46 @@
     android:key="ext_settings"
     android:title="@string/ext_settings_title">
 
+    <Preference
+        android:key="lineage_customizations"
+        android:title="@string/customizations_category_title"
+        android:icon="@drawable/ic_ext_customizations"
+        android:fragment="com.android.settings.lineage.fragments.customizations" />
+
+    <Preference
+        android:key="lineage_statusbar"
+        android:title="@string/statusbar_category_title"
+        android:icon="@drawable/ic_ext_statusbar"
+        android:fragment="com.android.settings.lineage.fragments.statusbar" />
+
+    <Preference
+        android:key="lineage_quicksettings"
+        android:title="@string/quicksettings_category_title"
+        android:icon="@drawable/ic_ext_quicksettings"
+        android:fragment="com.android.settings.lineage.fragments.quicksettings" />
+
+    <Preference
+        android:key="lineage_gestures"
+        android:title="@string/gestures_category_title"
+        android:icon="@drawable/ic_ext_gestures"
+        android:fragment="com.android.settings.lineage.fragments.gestures" />
+
+    <Preference
+        android:key="lineage_spoofs"
+        android:title="@string/spoofs_category_title"
+        android:icon="@drawable/ic_ext_spoofs"
+        android:fragment="com.android.settings.lineage.fragments.spoofs" />
+
+    <Preference
+        android:key="lineage_misc"
+        android:title="@string/misc_category_title"
+        android:icon="@drawable/ic_ext_misc"
+        android:fragment="com.android.settings.lineage.fragments.misc" />
+
+    <Preference
+        android:key="lineage_lockscreen"
+        android:title="@string/lockscreen_category_title"
+        android:icon="@drawable/ic_ext_lockscreen"
+        android:fragment="com.android.settings.lineage.fragments.lockscreen" />
+
 </PreferenceScreen>

@@ -23,5 +23,12 @@
     <!-- LineageExt category -->
     <string name="ext_settings_title">Ext Settings</string>
     <string name="ext_settings_summary">Some Extra Lineage changes</string>
+    <string name="customizations_category_title">Customizations</string>
+    <string name="statusbar_category_title">Statusbar</string>
+    <string name="quicksettings_category_title">Quick Settings</string>
+    <string name="gestures_category_title">Gestures</string>
+    <string name="misc_category_title">Miscellaneous</string>
+    <string name="spoofs_category_title">Spoofs</string>
+    <string name="lockscreen_category_title">Lock Screen</string>
 
 </resources>
