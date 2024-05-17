@@ -20,4 +20,15 @@
     <string name="maintainer" translatable="false">Maintainer</string>
     <string name="maintainer_name" translatable="false">Unknown</string>
 
+    <!-- LineageExt category -->
+    <string name="ext_settings_title">ExtLab</string>
+    <string name="ext_settings_summary">features N Customizations</string>
+    <string name="customizations_category_title">Customizations</string>
+    <string name="statusbar_category_title">Statusbar</string>
+    <string name="quicksettings_category_title">Quick Settings</string>
+    <string name="gestures_category_title">Gestures</string>
+    <string name="misc_category_title">Miscellaneous</string>
+    <string name="security_category_title">Security</string>
+    <string name="lockscreen_category_title">Lock Screen</string>
+
 </resources>
