@@ -20,4 +20,8 @@
     <string name="maintainer" translatable="false">Maintainer</string>
     <string name="maintainer_name" translatable="false">Unknown</string>
 
+    <!-- LineageExt category -->
+    <string name="ext_settings_title">Ext Settings</string>
+    <string name="ext_settings_summary">Some Extra Lineage changes</string>
+
 </resources>
