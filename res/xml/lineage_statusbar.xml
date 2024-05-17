@@ -59,6 +59,12 @@
             android:summary="@string/status_bar_network_traffic_settings_summary"
             android:fragment="com.android.settings.lineage.fragments.NetworkTrafficSettings" />
 
+        <Preference
+            android:key="clock"
+            android:title="@string/status_bar_clock_and_date_title"
+            android:summary="@string/status_bar_clock_and_date_summary"
+            android:fragment="com.android.settings.lineage.fragments.Clock" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
