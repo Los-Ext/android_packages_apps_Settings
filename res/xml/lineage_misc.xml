@@ -30,6 +30,12 @@
             android:defaultValue="false"/>
 
         <com.lineage.support.preferences.GlobalSettingSwitchPreference
+            android:key="hide_screen_capture_status"
+            android:title="@string/hide_screen_capture_status_title"
+            android:summary="@string/hide_screen_capture_status_summary"
+            android:defaultValue="false"/>
+
+        <com.lineage.support.preferences.GlobalSettingSwitchPreference
             android:key="pm_downgrade_allowed"
             android:title="@string/app_downgrade_title"
             android:summary="@string/app_downgrade_summary"
