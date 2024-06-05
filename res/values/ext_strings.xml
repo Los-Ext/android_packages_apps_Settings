@@ -293,4 +293,16 @@
     <string name="sound_engine_profile_game_activated">Adaptive Sound Engine: Game mode activated</string>
     <string name="sound_engine_profile_theater_activated">Adaptive Sound Engine: Theater mode activated</string>
 
+    <!-- QS tiles layout  -->
+    <string name="quick_settings_layout_category_title">Tiles layout</string>
+    <string name="quick_settings_tile_label_hide_title">Hide label</string>
+    <string name="quick_settings_tile_label_size_title">Label text size</string>
+    <string name="quick_settings_tile_label_hide_summary">Only show icon in tile</string>
+    <string name="quick_settings_tile_layout_title">Vertical layout</string>
+    <string name="quick_settings_tile_layout_summary">Show label below icon instead next to icon</string>
+    <string name="quick_settings_columns_portrait_title">Columns (portrait)</string>
+    <string name="quick_settings_columns_landscape_title">Columns (landscape)</string>
+    <string name="quick_settings_qqs_rows_portrait_title">Quick QS Rows (portrait)</string>
+    <string name="quick_settings_qqs_rows_landscape_title">Quick QS Rows (landscape)</string>
+
 </resources>
