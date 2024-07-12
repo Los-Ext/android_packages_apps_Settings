@@ -248,4 +248,8 @@
     <string name="notifications_kill_app_button_title">Kill app</string>
     <string name="notifications_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
 
+    <!-- Double tap to sleep on status bar -->
+    <string name="double_tap_status_bar_to_sleep_title">Tap to sleep status bar</string>
+    <string name="double_tap_status_bar_to_sleep_summary">Double-tap on the status bar to turn off the display</string>
+
 </resources>
