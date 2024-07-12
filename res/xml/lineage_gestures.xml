@@ -35,6 +35,13 @@
             android:summary="@string/lockscreen_doubletap_sleep_summary"
             android:defaultValue="true" />
 
+        <lineageos.preference.LineageSystemSettingSwitchPreference
+            android:key="double_tap_sleep_gesture"
+            android:title="@string/double_tap_status_bar_to_sleep_title"
+            android:summary="@string/double_tap_status_bar_to_sleep_summary"
+            android:defaultValue="@*lineageos.platform:bool/config_dt2sGestureEnabledByDefault"
+            settings:requiresConfig="@*lineageos.platform:bool/config_dt2sGestureAvailable" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
