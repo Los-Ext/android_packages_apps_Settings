@@ -89,6 +89,7 @@
     <string name="font_styles_summary">Change system font style</string>
     <string name="font_preview_text">The quick brown\nfox jumps over the\nlazy dog\n\nABCDEFGHIJKLM\nNOPQRSTUVWXYZ\nabcdefghijkl\nmnopqrstuvwxyz\n1234567890</string>
     <string name="apply_button_text">Apply</string>
+    <string name="font_picker_select_font">Select font</string>
 
     <!-- Statusbar Clock background chip -->
     <string name="statusbar_clock_chip_title">Background chip</string>
@@ -183,8 +184,8 @@
     <string name="double_tap_status_bar_to_sleep_summary">Double-tap on the status bar to turn off the display</string>
 
     <!-- Custom Fonts -->
-    <string name="theme_customization_lock_clock_title">Lockscreen clock font</string>
-    <string name="theme_customization_lock_clock_summary">Set LS clock font style</string>
+    <string name="theme_customization_lock_clock_title">Clock face</string>
+    <string name="theme_customization_lock_clock_summary">Modify lock screen clock appearance</string>
 
     <!-- Hide developer status -->
     <string name="hide_developer_status_title">Hide developer status</string>
@@ -305,6 +306,13 @@
 
     <!-- Custom Clock Style -->
     <string name="lockscreen_clock_category_title">Clock</string>
+    <string name="lockscreen_clock_category_summary">Configure lock screen clock styles</string>
     <string name="custom_clock_style">Custom Clock Style</string>
+
+    <!-- Lockscreen Clock Highlight Guide -->
+    <string name="ls_clock_face_highlight_text">Swipe left or right to preview clock styles</string>
+
+    <!-- Lockscreen Clock Revamp -->
+    <string name="ls_clock_custom_font_not_supported">Selected clock does not support custom fonts</string>
 
 </resources>
