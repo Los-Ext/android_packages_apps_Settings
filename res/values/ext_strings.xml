@@ -182,4 +182,10 @@
     <string name="theme_customization_lock_clock_title">Lockscreen clock font</string>
     <string name="theme_customization_lock_clock_summary">Set LS clock font style</string>
 
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
+
 </resources>
