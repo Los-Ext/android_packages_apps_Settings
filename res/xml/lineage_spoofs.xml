@@ -23,11 +23,11 @@
         android:key="spoofs_category"
         android:title="@string/spoofs_category_title">
 
-        <com.lineage.support.preferences.SystemPropertySwitchPreference
-            android:key="persist.sys.pixelprops.gms"
-            android:title="@string/gms_spoof_title"
-            android:summary="@string/gms_spoof_summary"
-            android:defaultValue="false" />
+        <Preference
+            android:key="spoofing"
+            android:title="@string/pif_spoofs_category_title"
+            android:summary="@string/pif_spoofs_title_summary"
+            android:fragment="com.android.settings.lineage.fragments.pif_spoofs" />
 
         <com.lineage.support.preferences.SystemPropertySwitchPreference
             android:key="persist.sys.pixelprops.gphotos"
