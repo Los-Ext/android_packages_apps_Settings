@@ -61,4 +61,10 @@
         android:icon="@drawable/ic_ext_lockscreen"
         android:fragment="com.android.settings.lineage.fragments.lockscreen" />
 
+    <Preference
+        android:key="lineage_spoofs"
+        android:title="@string/spoofs_category_title"
+        android:icon="@drawable/ic_ext_spoofs"
+        android:fragment="com.android.settings.lineage.fragments.spoofs" />
+
 </PreferenceScreen>
