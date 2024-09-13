@@ -43,4 +43,7 @@
 
     <!-- Whether to show min refresh rate in display settings -->
     <bool name="config_show_min_refresh_rate_switch">false</bool>
+    
+    <!-- Battery Info: mAh -->
+    <integer name="config_battery_divider" translatable="false">1000</integer>
 </resources>
