@@ -32,6 +32,18 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="lockscreen_widgets"
+        android:title="@string/lockscreen_widgets_title">
+
+        <Preference
+            android:key="lockscreen_widgets"
+            android:title="@string/lockscreen_widgets_title"
+            android:summary="@string/lockscreen_widgets_enabled_summary"
+            android:fragment="com.android.settings.lineage.fragments.LockScreenWidgets" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="lockscreen_category"
         android:title="@string/lockscreen_category_title">
 
