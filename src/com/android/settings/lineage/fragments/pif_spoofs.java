@@ -75,7 +75,7 @@ public class pif_spoofs extends SettingsPreferenceFragment {
         });
 
         mUpdateJsonButton.setOnPreferenceClickListener(preference -> {
-            updatePropertiesFromUrl("https://raw.githubusercontent.com/chiteroman/PlayIntegrityFix/main/module/pif.json");
+            updatePropertiesFromUrl("https://raw.githubusercontent.com/Los-Ext/Pif.json/refs/heads/main/pif.json");
             return true;
         });
 
