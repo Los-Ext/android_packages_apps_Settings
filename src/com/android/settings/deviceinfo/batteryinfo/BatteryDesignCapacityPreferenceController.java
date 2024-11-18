@@ -29,6 +29,8 @@ import com.android.settingslib.fuelgauge.BatteryUtils;
  */
 public class BatteryDesignCapacityPreferenceController extends BasePreferenceController {
 
+    private int mDesignBatteryDivider = mContext.getResources().getInteger(R.integer.config_design_battery_divider);
+
     public BatteryDesignCapacityPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
     }
@@ -45,7 +47,7 @@ public class BatteryDesignCapacityPreferenceController extends BasePreferenceCon
                 batteryIntent.getIntExtra(BatteryManager.EXTRA_DESIGN_CAPACITY, -1);
 
         if (designCapacityUah > 0) {
-            int designCapacity = designCapacityUah / 1_000;
+            int designCapacity = designCapacityUah / mDesignBatteryDivider;
             return mContext.getString(R.string.battery_design_capacity_summary, designCapacity);
         }
 
