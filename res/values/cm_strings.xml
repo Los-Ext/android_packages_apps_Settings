@@ -290,4 +290,5 @@
 
     <!-- Google Wellbeing -->
     <string name="wellbeing_title">Google Wellbeing</string>
+    <string name="gms_enabled_title">Google services</string>
 </resources>
