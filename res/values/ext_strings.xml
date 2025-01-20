@@ -35,6 +35,7 @@
     <string name="fp_category_title">Fingerprint</string>
     <string name="spoofs_category_title">Spoofs</string>
     <string name="pif_spoofs_category_title">PIF Spoofs</string>
+    <string name="freeform_category_title">Freeform</string>
 
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
@@ -292,5 +293,10 @@
     <string name="show_pif_properties_title">Play Integrity Fix properties</string>
     <string name="show_pif_properties_summary">Show all currently set PIF properties</string>
     <string name="error_loading_properties">Error loading PIF properties</string>
+
+    <!-- Freeform launch mode -->
+    <string name="freeform_launch_mode_title">Freeform launch mode</string>
+    <string name="freeform_launch_mode_1">Native AOSP</string>
+    <string name="freeform_launch_mode_2">LMOFreeForm</string>
 
 </resources>
