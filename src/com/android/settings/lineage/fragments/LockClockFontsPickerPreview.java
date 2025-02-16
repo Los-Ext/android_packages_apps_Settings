@@ -52,7 +52,7 @@ import com.android.settings.lineage.fragments.FontArrayAdapter;
 import com.android.settings.lineage.fragments.FontManager;
 import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
 
-import com.android.internal.util.android.ThemeUtils;
+import com.android.internal.util.rising.ThemeUtils;
 
 import java.util.List;
 
